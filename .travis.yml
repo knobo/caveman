@@ -16,6 +16,7 @@ install:
   - ros install prove
   - ros install fukamachi/cl-project
   - ros install fukamachi/ningle
+  - ros install fukumachi/cl-dbi
 
 cache:
   directories:
