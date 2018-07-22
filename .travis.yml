@@ -14,6 +14,7 @@ install:
   # Install Roswell
   - curl -L https://raw.githubusercontent.com/snmsts/roswell/$ROSWELL_BRANCH/scripts/install-for-ci.sh | sh
   - ros install prove
+  - ros install fukamachi/cl-project
   - ros install fukamachi/ningle
 
 cache:
